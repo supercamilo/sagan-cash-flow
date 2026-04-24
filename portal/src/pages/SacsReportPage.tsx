@@ -15,6 +15,7 @@ import {
 } from "@mui/material";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { API_BASE_URL } from "../config/settings";
 import { ApiError, reportApi } from "../lib/api";
 import type { SacsReport } from "../types/finance";
 
@@ -42,9 +43,6 @@ const CANVAS_HEIGHT = 620;
 const INFLOW = { cx: 220, cy: 240, r: 130 };
 const OUTFLOW = { cx: 680, cy: 240, r: 130 };
 const RESERVE = { cx: 450, cy: 500, r: 110 };
-
-const API_BASE_URL =
-  import.meta.env.VITE_API_BASE_URL ?? "http://127.0.0.1:8000";
 
 export default function SacsReportPage() {
   const { snapshot_group_id } = useParams<{ snapshot_group_id: string }>();
