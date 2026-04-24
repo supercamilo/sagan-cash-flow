@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/theme.ts","./src/vite-env.d.ts","./src/components/shelllayout.tsx","./src/lib/api.ts","./src/lib/currency.ts","./src/pages/balancesnapshotspage.tsx","./src/pages/clientspage.tsx","./src/pages/sacsreportpage.tsx","./src/types/finance.ts"],"version":"5.9.3"}
